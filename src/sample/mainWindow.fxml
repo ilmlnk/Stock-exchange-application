@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainWindow">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1574338097_3.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonSellerList" layoutX="215.0" layoutY="56.0" mnemonicParsing="false" onAction="#buttonSellerListAction" prefHeight="28.0" prefWidth="171.0" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;" text="Seller List">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonExpertList" layoutX="215.0" layoutY="110.0" mnemonicParsing="false" onAction="#buttonExpertListAction" prefHeight="28.0" prefWidth="171.0" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;" text="Expert List">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonLotList" layoutX="215.0" layoutY="171.0" mnemonicParsing="false" onAction="#buttonLotListAction" prefHeight="28.0" prefWidth="171.0" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;" text="Lot List">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonAverageLotCost" layoutX="215.0" layoutY="225.0" mnemonicParsing="false" onAction="#buttonAverageLotCostAction" prefHeight="28.0" prefWidth="171.0" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;" text="Average lot cost">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonTheOldestLot" layoutX="215.0" layoutY="282.0" mnemonicParsing="false" onAction="#buttonTheOldestLotAction" prefHeight="28.0" prefWidth="171.0" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;" text="The oldest lot">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonAddNewSellerAndLot" layoutX="215.0" layoutY="337.0" mnemonicParsing="false" onAction="#buttonAddNewSellerAndLotAction" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;" text="Add new seller and lot">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonExit" layoutX="508.0" layoutY="28.0" mnemonicParsing="false" onAction="#buttonExitAction" prefHeight="28.0" prefWidth="56.0" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;" text="Exit">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

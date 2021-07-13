@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0" prefWidth="627.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Registration">
+   <children>
+      <ImageView fitHeight="356.0" fitWidth="627.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@unnamed.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonExit" layoutX="539.0" layoutY="21.0" mnemonicParsing="false" onAction="#buttonExitAction" prefHeight="30.0" prefWidth="61.0" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;" text="Exit">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtFieldNameFirm" layoutX="110.0" layoutY="73.0" promptText="Input here" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtFieldSurname" layoutX="110.0" layoutY="120.0" promptText="Input here" style="-fx-background-radius: 5em; -fx-background-color: #F5A423;">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="labelNameFirm" layoutX="17.0" layoutY="76.0" style="-fx-text-fill: #F5A423;" text="Name firm">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelSurname" layoutX="17.0" layoutY="123.0" style="-fx-text-fill: #F5A423;" text="Surname">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFieldName" layoutX="110.0" layoutY="165.0" promptText="Input here" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtFieldPatronymic" layoutX="110.0" layoutY="216.0" promptText="Input here" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtFieldTelephone" layoutX="413.0" layoutY="73.0" promptText="Input here" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="labelName" layoutX="17.0" layoutY="169.0" style="-fx-text-fill: #F5A423;" text="Name">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelPatronymic" layoutX="14.0" layoutY="221.0" style="-fx-text-fill: #F5A423;" text="Patronymic">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelTelephone" layoutX="314.0" layoutY="76.0" style="-fx-text-fill: #F5A423;" text="Telephone">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFieldAddress" layoutX="413.0" layoutY="120.0" promptText="Input here" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtFieldSpecialization" layoutX="413.0" layoutY="165.0" promptText="Input here" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtFieldLogin" layoutX="413.0" layoutY="216.0" promptText="Input here" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="buttonAddNewExpert" layoutX="459.0" layoutY="302.0" mnemonicParsing="false" onAction="#buttonAddNewExpertAction" prefHeight="28.0" prefWidth="141.0" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;" text="Add new expert!">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelAddress" layoutX="314.0" layoutY="123.0" style="-fx-text-fill: #F5A423;" text="Address">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="314.0" layoutY="171.0">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelSpecialization" layoutX="313.0" layoutY="169.0" style="-fx-text-fill: #F5A423;" text="Specialization">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelLogin" layoutX="314.0" layoutY="219.0" style="-fx-text-fill: #F5A423;" text="Login">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelPassword" layoutX="151.0" layoutY="279.0" style="-fx-text-fill: #F5A423;" text="Password">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtFieldPassword" layoutX="225.0" layoutY="274.0" promptText="Input here" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="labelRegistrationForm" layoutX="243.0" layoutY="23.0" style="-fx-text-fill: #F5A423;" text="Registration Form">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

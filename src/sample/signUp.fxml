@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUp">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1574338097_3.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtFieldLogin" layoutX="214.0" layoutY="126.0" prefHeight="25.0" prefWidth="173.0" promptText="Input here" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="txtFieldPassword" layoutX="214.0" layoutY="200.0" prefHeight="25.0" prefWidth="173.0" promptText="Input here" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="buttonSignIn" layoutX="238.0" layoutY="272.0" mnemonicParsing="false" onAction="#buttonSignInAction" prefHeight="30.0" prefWidth="125.0" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;" text="Sign In">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSignUp" layoutX="458.0" layoutY="349.0" mnemonicParsing="false" onAction="#buttonSignUpAction" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: #F5A423; -fx-background-radius: 5em;" text="Sign Up">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelAuction" layoutX="243.0" layoutY="42.0" style="-fx-text-fill: #F5A423;" text="Auction">
+         <font>
+            <Font name="Century Gothic" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelLogin" layoutX="281.0" layoutY="98.0" style="-fx-text-fill: #F5A423;" text="Login">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelPassword" layoutX="268.0" layoutY="175.0" style="-fx-text-fill: #F5A423;" text="Password">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
